@@ -1,4 +1,4 @@
-function [K_LQRp]= genControlelr(dt,m,Stages,q,r)
+function [K_LQRp]= genController(dt,m,Stages,q,r)
 
 
 
