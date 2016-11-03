@@ -1,5 +1,5 @@
 function [K_LQRp]= genController(dt,m,Stages,q,r)
-
+% Stages can = 1
 
 
 %% state space form of the Point mass model

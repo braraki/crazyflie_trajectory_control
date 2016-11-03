@@ -77,7 +77,7 @@ classdef CCrazyfly<handle
          end
         
          function filterAndSendState(obj)
-             [pos, q, age]  = obj.tflistener.getPose();
+            [pos, q, age]  = obj.tflistener.getPose();
             obj.getPositionSetpoint();
             [pos,vel]=obj.KF.step(pos);
             
